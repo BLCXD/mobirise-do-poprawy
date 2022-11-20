@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Formularze</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/kup.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    
+    
+    <form action="https://formsubmit.co/blctoblc223@gmail.com" method="POST">
+        <fieldset>
+
+            <legend>Dane Kupującego</legend>
+          <label for="nazwaUzytkownika">Nazwa Użytkownika</label>
+          <br>
+          <input class="shadow" type="text" maxlength="10" placeholder="Podaj nazwę użytkownika" id="nazwaUzytkownika" >
+          <br>
+         
+    
+          <br>
+          <label>E-mail:</label>
+          <br>
+          <input class="shadow" type="email">
+          <br>
+    
+         
+          
+    
+          <label>Telefon:</label>
+          <br>
+          <input class="shadow" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="xxx-xxx-xxx" maxlength="11"><br><br>
+          </fieldset>
+    
+        <fieldset>
+    
+          <legend>Pozostałe informacje</legend>
+          <textarea class="shadow" id="uwagi" rows="10" cols="40" placeholder="Twoje uwagi..."></textarea>
+            <br>
+          <label>Płeć:</label>
+            <br>
+            <input style="width:20px;" type="radio" name="plec">Mężczyzna
+            <input style="width:20px;" type="radio" name="plec">Kobieta
+            <input style="width:20px;" type="radio" name="plec">Inna
+    
+           <br>
+    
+        
+              
+          </select>
+    <br>
+          <label>logo:</label>
+          <input type="file">
+          <br>
+          <label>Twój szablon: <br><a href="client area/szablon-klienta.html">Nie wiesz co wybrać</a></label>
+          <input type="file">
+    
+          <h3>Uwaga płatność przez OLX</h3>
+              <input id="btnSubmit" type="submit" value="Prześlij">
+        </fieldset>
+    
+        <input name="_formsubmit_id" type="text" style="display:none">
+    
+        <input value="Submit" type="submit">
+    </form>
+    
+    
+    
+  </body>
+</html>

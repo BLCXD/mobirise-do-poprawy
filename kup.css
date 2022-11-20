@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Open+Sans&display=swap');
+
+
+
+form,input,textarea,select{
+  font-family: 'Balsamiq Sans', cursive;
+  font-size:20px;
+}
+
+
+
+input{
+ width:400px;
+  padding:10px;
+  border-radius:4px;
+  border:2px solid #454343;
+}
+
+.shadow:focus{
+  
+  box-shadow: 10px 10px 5px #b8b4b4;/*cień dla pudełka pierwsza wartość to horyzontalny cień drugi wertykalny trzecia wartość to rozmazanie-blur oraz kolor*/
+}
+
+
+legend{
+  
+  font-size:30px;
+  color:#4a3f3e;
+}
+
+fieldset{
+ 
+  margin-top:20px;
+  margin-bottom:30px;
+  width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 8px double #f55549;
+  background-color:#f7f3f2;
+
+}
+
+label{
+  display:inline-block;/*dodajemy żeby można było ustawić marginesy*/
+  margin-top:10px;
+  margin-bottom:3px;
+}
+
+
+#btnSubmit{
+  background-color:#65e67a;
+  padding:15px;
+  border:3px solid #65e67a;
+  border-radius:8px;
+  font-size:20px;
+  font-family: 'Balsamiq Sans', cursive;
+  width:250px;
+  color:white;
+
+  
+}
+
+#btnSubmit:hover{
+  background-color:white;
+  cursor:pointer;
+  color:#191919;
+  transition-duration:0.7s;
+  
+  
+}
+
